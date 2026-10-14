@@ -1,0 +1,3 @@
+bridge: up (mapping Local\HelloNeighborMC_v0, pipes \\.\pipe\hnmc*), waiting for Lua...
+bridge: Lua connected
+bridge: Lua disconnected (3125 samples, 4606 commands, 8251 events)

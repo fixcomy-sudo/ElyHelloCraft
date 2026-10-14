@@ -1,0 +1,33 @@
+[15:58:18.215] hn_gfx loaded (step 2 overlay + step 4 world layer); game window class 'UnrealWindow', overlay 'Local\HelloNeighborMC_overlay_v0'
+[15:58:18.215] installing hooks (pid 22188)
+[15:58:18.253] creating throwaway D3D device (game window not yet created)
+[15:58:21.653] vtable 00007FF8E0F6D688 patched (after the Steam overlay's hook): Present=1 (orig 00007FF8E0EB9000), ResizeBuffers (orig 00007FF8E0ED6C30)
+[15:58:21.774] swap chain 000001E4431EC150 on window class 'UnrealWindow' (1920x1080 fmt=24 swapEffect=0): GAME, drawing
+[15:58:21.774] game Present: 1 frames, drawing=1, overlay uploads=0 draws=0; longest frame gap 0.0 ms, gaps over 25 ms: 0
+[15:58:21.774] drawing on game swap chain 000001E4431EC150 (thread 26212)
+[15:58:21.798] overlay pipeline ready (feature level 0xb000)
+[15:58:21.798] context interface 0 (object 000001E43A158F58): table 000001E43A158F60, OMSetRenderTargets 00007FF8E0098950, ...AndUAVs 00007FF8E00BEE30
+[15:58:21.903] code hook OMSetRenderTargets #0 at 00007FF8E0098950: MH_OK
+[15:58:21.995] code hook OMSetRenderTargetsAndUAVs #0 at 00007FF8E00BEE30: MH_OK
+[15:58:21.995] back buffer RTV ready: 1920x1080 fmt=24
+[15:58:21.995] overlay mapping Local\HelloNeighborMC_overlay_v0 open (created: 0)
+[15:58:21.995] input: game window 0000000000160D6C subclassed (orig proc 00007FF78F397190)
+[15:58:21.995] input: Minecraft alive; routing ON (events sent 0, dropped 0)
+[15:58:21.995] input: Hello Neighbor 'use' = E
+[15:58:21.995] input: Hello Neighbor 'apply' = LeftMouseButton
+[15:58:21.995] input: Hello Neighbor 'throw' = RightMouseButton
+[15:58:21.995] overlay texture 1x1 (bottomUp=0)
+[15:58:21.996] first Minecraft frame uploaded (id 29635273473700)
+[15:58:21.996] world channel open (magic 44574e48 version 2)
+[15:58:22.011] block atlas 2048x2048 uploaded (seq 1)
+[15:58:22.011] world mesh uploaded: 0 triangles (seq 2)
+[15:58:22.011] first overlay draw
+[15:58:22.125] code hook OMSetRenderTargets #1 at 00007FF8E00D9E90: MH_OK
+[15:58:22.238] code hook OMSetRenderTargetsAndUAVs #1 at 00007FF8E0034D00: MH_OK
+[15:58:22.238] Present re-entered (depth 1) from gameoverlayrenderer64.dll+0x93f6f; our original is dxgi.dll+0x19000 (first bytes e9 c5 71 82 82), our hook main.dll+0x1da0. Another hook (Steam overlay?) calls back into us.
+[15:58:22.238] Present hook loop cut at depth 8 (1 times)
+[15:58:24.485] input: Minecraft gone; routing OFF, everything goes to the game (events sent 0, dropped 0)
+[15:58:26.013] depth table (scene depth selected): 3 texture(s), hook calls 308 (with depth 27)
+[15:58:26.013]   depth tex 000001E4B7D890A0 1920x1080 fmt=44 samples=1 bind=0x48 binds this frame=24 total=24  <== scene
+[15:58:26.013]   depth tex 000001E4B7D8CD20 64x64 fmt=53 samples=1 bind=0x48 binds this frame=1 total=1
+[15:58:26.013]   depth tex 000001E4B7D906E0 2048x2048 fmt=53 samples=1 bind=0x48 binds this frame=2 total=2

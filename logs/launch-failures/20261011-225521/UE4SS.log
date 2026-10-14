@@ -1,0 +1,644 @@
+[2026-10-11 22:55:12.5119147] Console created
+[2026-10-11 22:55:12.5252737] UE4SS - v3.0.1 Beta #0 - Git SHA #e3ba1016
+[2026-10-11 22:55:12.5253469] Timezone: Europe/Moscow
+[2026-10-11 22:55:12.5253801] UE4SS Build Configuration: Game__Shipping__Win64 (MSVC)
+[2026-10-11 22:55:12.5313310] Setting up mods...
+[2026-10-11 22:55:12.5314588] Loading mods from: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss\Mods
+[2026-10-11 22:55:12.5333701] Failed to find exported mod lifecycle functions for mod HnGfx
+[2026-10-11 22:55:12.5336793] Was unable to install mod 'HnGfx' for unknown reasons. Mod is not installable.
+[2026-10-11 22:55:12.5338021] Starting mods (from mods.txt (E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss\Mods\mods.txt) load order)...
+[2026-10-11 22:55:12.5347925] Starting mods (from enabled.txt (E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss\Mods), no defined load order)...
+[2026-10-11 22:55:12.5353018] No specific game configuration found, using default configuration file
+[2026-10-11 22:55:12.5353657] Config: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss\UE4SS-settings.ini
+
+[2026-10-11 22:55:12.5354220] root directory: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss
+[2026-10-11 22:55:12.5354728] working directory: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss
+[2026-10-11 22:55:12.5355047] game executable directory: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64
+[2026-10-11 22:55:12.5355521] game executable: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\HelloNeighbor-Win64-Shipping.exe (53029376 bytes)
+
+
+[2026-10-11 22:55:12.5355835] mods directories: 
+[2026-10-11 22:55:12.5356100] [0] E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss\Mods
+[2026-10-11 22:55:12.5356356] 
+[2026-10-11 22:55:12.5356883] log directory: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss
+[2026-10-11 22:55:12.5357269] object dumper directory: E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss
+
+
+[2026-10-11 22:55:12.5420750] PS Scan attempt 1 (Phase 2)
+[2026-10-11 22:55:12.5421928] [PS] Reading image
+[2026-10-11 22:55:12.5423489] [PS] Starting scan
+[2026-10-11 22:55:12.8584587] [PS] Scan finished in 316.0457ms
+[2026-10-11 22:55:12.8585462] [PS] Found EngineVersion: 4.20
+[2026-10-11 22:55:12.8585804] [PS] Found BuildConfiguration: Shipping
+[2026-10-11 22:55:12.8586116] [PS] Found Stats: Off
+[2026-10-11 22:55:12.8586440] [PS] Found GUObjectArray: 0x7ff733385af0
+[2026-10-11 22:55:12.8586742] [PS] Found GMalloc: 0x7ff7335eda10
+[2026-10-11 22:55:12.8587018] [PS] Found FName::ToString: 0x7ff730cd4090
+[2026-10-11 22:55:12.8587334] [PS] Found FName::FName(wchar_t*): 0x7ff730cc3860
+[2026-10-11 22:55:12.8587631] [PS] Found StaticConstructObject_Internal: 0x7ff730e6dab0
+[2026-10-11 22:55:12.8587947] [PS] Found FUObjectHashTables::Get(): 0x7ff730e60c90
+[2026-10-11 22:55:12.8588235] [PS] Found GNatives: 0x7ff7336ff8e0
+[2026-10-11 22:55:12.8588571] [PS] Failed to find ConsoleManagerSingleton: ConsoleManagerSingleton: found 2 unique values [7FF730BEE6B0, 7FF731461470]
+[2026-10-11 22:55:12.8588861] [PS] You can supply your own AOB in 'UE4SS_Signatures/ConsoleManager.lua'
+[2026-10-11 22:55:12.8589130] [PS] Found GameEngineTick: 0x7ff7319c9bd0
+[2026-10-11 22:55:12.8589494] PS scan successful
+[2026-10-11 22:55:12.8589790] Build configuration: shipping, detected
+[2026-10-11 22:55:12.8590038] Stats: off, detected
+[2026-10-11 22:55:12.8607346] Running second pass of Lua override scans
+[2026-10-11 22:55:12.8608045] Lua Scan attempt 1 (Phase 2)
+[2026-10-11 22:55:12.8608697] Phase 2: Verifying FName constructor...
+[2026-10-11 22:55:12.8642114] [UE4SS.FNameConstructor.FNameConstructorVerificationHook] Added posthook with Id '0X8000200000000001'!
+[2026-10-11 22:55:13.6603088] FName constructor verified at 0x00007FF730CC3860
+[2026-10-11 22:55:13.6604663] Using engine version: 4.20
+[2026-10-11 22:55:13.6605210] Waiting for object construction...
+[2026-10-11 22:55:16.1503223] Locating KismetStringLibrary...
+[2026-10-11 22:55:16.1505573] KismetStringLibrary located: 0x000002B0AA312000 [n: 44B0]
+[2026-10-11 22:55:16.1505937] Locating KismetStringLibrary:Conv_NameToString...
+[2026-10-11 22:55:16.2029297] KismetStringLibrary:Conv_NameToString located: 0x000002B0FAEE1540 [n: 44C3]
+[2026-10-11 22:55:16.2030162] Locating KismetStringLibrary CDO...
+[2026-10-11 22:55:16.3051112] KismetStringLibrary CDO located: 0x000002B0FA48A480 [n: F1CB]
+[2026-10-11 22:55:16.3053541] Already constructed: ["/Script/CoreUObject", "Class"]
+[2026-10-11 22:55:16.3054311] Already constructed: ["/Script/CoreUObject"]
+[2026-10-11 22:55:16.3055248] Already constructed: ["/Script/CoreUObject", "Struct"]
+[2026-10-11 22:55:16.3055823] Already constructed: ["/Script/Engine", "Pawn"]
+[2026-10-11 22:55:16.3056444] Already constructed: ["/Script/Engine", "Character"]
+[2026-10-11 22:55:16.3057034] Already constructed: ["/Script/Engine", "Actor"]
+[2026-10-11 22:55:16.3079649] Already constructed: ["/Script/Engine", "Default__DefaultPawn"]
+[2026-10-11 22:55:16.3106051] Already constructed: ["/Script/Engine", "Default__MaterialExpression"]
+[2026-10-11 22:55:16.3106694] Already constructed: ["/Script/Engine", "ActorComponent"]
+[2026-10-11 22:55:16.3107139] Already constructed: ["/Script/Engine", "MovementComponent"]
+[2026-10-11 22:55:16.3108001] Already constructed: ["/Script/Engine", "HUD"]
+[2026-10-11 22:55:16.3108541] Already constructed: ["/Script/Engine", "PlayerController"]
+[2026-10-11 22:55:16.3109515] Already constructed: ["/Script/Engine", "PlayerCameraManager"]
+[2026-10-11 22:55:16.3110562] Already constructed: ["/Script/CoreUObject", "Vector"]
+[2026-10-11 22:55:16.3111608] Already constructed: ["/Script/Engine", "HitResult"]
+[2026-10-11 22:55:16.3112429] Already constructed: ["/Script/CoreUObject", "OrientedBox"]
+[2026-10-11 22:55:16.3113295] Already constructed: ["/Script/CoreUObject", "EInterpCurveMode"]
+[2026-10-11 22:55:16.3115116] Already constructed: ["/Script/Engine", "ENetRole"]
+[2026-10-11 22:55:16.3119269] Already constructed: ["/Script/MovieScene", "MovieSceneEditorData"]
+[2026-10-11 22:55:16.3119627] Already constructed: ["/Script/UMG", "Widget"]
+[2026-10-11 22:55:16.3120094] Already constructed: ["/Script/UMG", "ComboBoxString"]
+[2026-10-11 22:55:16.3120392] Already constructed: ["/Script/CoreUObject", "Interface"]
+[2026-10-11 22:55:16.3120794] Already constructed: ["/Script/CoreUObject", "DynamicClass"]
+[2026-10-11 22:55:16.3128771] Object CDO: 0x000002B0AAD1A300 [n: 54E5]
+[2026-10-11 22:55:16.3151311] Struct CDO: 0x000002B0FA455C40 [n: B360]
+[2026-10-11 22:55:16.3151723] Finding 'GameEngine'
+[2026-10-11 22:55:16.3249020] Could not find 'GameEngine', falling back to '/Script/Engine.Default__GameEngine'
+[2026-10-11 22:55:16.4020048] GameEngine CDO/Instance: 0x000002B0AF485A40 [n: F13C]
+[2026-10-11 22:55:16.4020907] Finding 'GameModeBase'
+[2026-10-11 22:55:16.4087157] Could not find 'GameModeBase', falling back to '/Script/Engine.Default__GameModeBase'
+[2026-10-11 22:55:16.4923927] GameMode CDO/Instance: 0x000002B0F8412380 [n: F13F]
+[2026-10-11 22:55:16.5651803] Actor CDO: 0x000002B0F833CF00 [n: EFF8]
+[2026-10-11 22:55:16.5652642] Finding 'GameViewportClient'
+[2026-10-11 22:55:16.5734817] Could not find 'GameViewportClient', falling back to '/Script/Engine.Default__GameViewportClient'
+[2026-10-11 22:55:16.6435410] GameViewportClient CDO/Instance: 0x000002B0F8433100 [n: F148]
+[2026-10-11 22:55:16.6436185] Finding GameEngine::LoadMap
+[2026-10-11 22:55:16.6436658] GameEngine::LoadMap address 0x7ff731d41cf0
+[2026-10-11 22:55:16.6436993] Finding GameEngine::Tick
+[2026-10-11 22:55:16.6437271] GameEngine::Tick address (vtable: 0x7ff7319c9bd0; scan: 0x7ff7319c9bd0)
+[2026-10-11 22:55:16.6437566] Using scan address for GameEngine::Tick
+[2026-10-11 22:55:16.6462970] [UE4SS.EngineTick.GameThreadInitializer] Added prehook with Id '0X6020000000000001'!
+[2026-10-11 22:55:16.6463665] Finding GameModeBase::InitGameState
+[2026-10-11 22:55:16.6465583] GameModeBase::InitGameState address 0x7ff7319baab0
+[2026-10-11 22:55:16.6466269] Finding AActor::BeginPlay
+[2026-10-11 22:55:16.6466721] AActor::BeginPlay address 0x7ff7317afde0
+[2026-10-11 22:55:16.6467085] Finding AActor::EndPlay
+[2026-10-11 22:55:16.6467737] AActor::EndPlay address 0x7ff7317b69f0
+[2026-10-11 22:55:16.6468643] Finding AActor::Tick
+[2026-10-11 22:55:16.6469204] AActor::Tick address 0x7ff7317cc1e0
+[2026-10-11 22:55:16.6469580] Finding GameViewportClient::Tick
+[2026-10-11 22:55:16.6470184] GameViewportClient::Tick address 0x7ff7319ff780
+[2026-10-11 22:55:16.6470622] Finding ProcessEvent
+[2026-10-11 22:55:16.6471440] ProcessEvent address 0x7ff730e49510
+[2026-10-11 22:55:16.6472027] Finding ProcessConsoleExec
+[2026-10-11 22:55:16.6472579] ProcessConsoleExec address 0x7ff7308db1e0
+[2026-10-11 22:55:16.6472964] Finding UStruct::Link
+[2026-10-11 22:55:16.6473426] UStruct::Link address 0x7ff730d44750
+[2026-10-11 22:55:16.6473786] Initializing global FName variables
+[2026-10-11 22:55:16.6474298] Constructed 0 of 0 objects
+[2026-10-11 22:55:16.6474681] Initializing type system
+[2026-10-11 22:55:17.1971182] FText size detected as 0x18 bytes.
+[2026-10-11 22:55:17.2006235] FSoftObjectPath layout: size 0x18, SubPathString at 0x8, FName shape, from reflection
+[2026-10-11 22:55:17.2007093] Finding ProcessInternal
+[2026-10-11 22:55:17.2011845] ProcessInternal address: 0x7ff730e498b0
+[2026-10-11 22:55:17.2012412] UnrealConfig.FExecVTableOffsetInLocalPlayer: 28
+[2026-10-11 22:55:17.2012758] Post-initialization: GMalloc: 0x7ff7335eda10 -> 0x2b0a8c50080
+[2026-10-11 22:55:17.2013117] Adding shutdown listener
+[2026-10-11 22:55:17.2013601] Starting callback garbage collector!
+[2026-10-11 22:55:17.2015240] Hooking StaticConstructObject for searcher pools
+[2026-10-11 22:55:17.2058199] [UE4SS.StaticConstructObject.ObjectSearcherPoolHook] Added posthook with Id '0X9000000000000001'!
+[2026-10-11 22:55:17.2059376] FAssetData Size: 0x50
+[2026-10-11 22:55:17.2060070] FVector Size: 0xC
+[2026-10-11 22:55:17.2060699] FQuat Size: 0x10
+[2026-10-11 22:55:17.2061277] FFieldVariant Size: 0x10
+[2026-10-11 22:55:17.2061617] FText Size: 0x18
+[2026-10-11 22:55:17.2061920] FName Size: 0x8
+[2026-10-11 22:55:17.2062202] FName Alignment: 0x8
+[2026-10-11 22:55:17.2062510] 
+##### MEMBER OFFSETS START (Coalesced) #####
+
+[2026-10-11 22:55:17.2062922] UObjectBase::NamePrivate = 0x18
+[2026-10-11 22:55:17.2063232] UObjectBase::ObjectFlags = 0x8
+[2026-10-11 22:55:17.2063530] UObjectBase::ClassPrivate = 0x10
+[2026-10-11 22:55:17.2063809] UObjectBase::InternalIndex_Private = 0xC
+[2026-10-11 22:55:17.2064105] UObjectBase::OuterPrivate = 0x20
+[2026-10-11 22:55:17.2064383] UObjectBase::UEP_TotalSize = 0x28
+[2026-10-11 22:55:17.2064679] UScriptStruct::ICppStructOps::Size = 0x8
+[2026-10-11 22:55:17.2064977] UScriptStruct::ICppStructOps::Alignment = 0xC
+[2026-10-11 22:55:17.2065257] UScriptStruct::ICppStructOps::UEP_TotalSize = 0x10
+[2026-10-11 22:55:17.2065561] UStruct::SuperStruct = 0x30
+[2026-10-11 22:55:17.2065837] UStruct::DestructorLink = 0x68
+[2026-10-11 22:55:17.2066132] UStruct::Children = 0x38
+[2026-10-11 22:55:17.2066405] UStruct::PropertiesSize = 0x40
+[2026-10-11 22:55:17.2066695] UStruct::MinAlignment = 0x44
+[2026-10-11 22:55:17.2066965] UStruct::PropertyLink = 0x58
+[2026-10-11 22:55:17.2067262] UStruct::Script = 0x48
+[2026-10-11 22:55:17.2067535] UStruct::RefLink = 0x60
+[2026-10-11 22:55:17.2067832] UStruct::PostConstructLink = 0x70
+[2026-10-11 22:55:17.2068107] UStruct::ScriptObjectReferences = 0x78
+[2026-10-11 22:55:17.2068410] UStruct::UEP_TotalSize = 0x88
+[2026-10-11 22:55:17.2068985] UScriptStruct::UEP_TotalSize = 0x98
+[2026-10-11 22:55:17.2069398] UScriptStruct::CppStructOps = 0x90
+[2026-10-11 22:55:17.2069706] UScriptStruct::StructFlags = 0x88
+[2026-10-11 22:55:17.2070007] UScriptStruct::bPrepareCppStructOpsCompleted = 0x8C
+[2026-10-11 22:55:17.2070295] UClass::ClassAddReferencedObjects = 0xA8
+[2026-10-11 22:55:17.2070592] UClass::ClassConstructor = 0x98
+[2026-10-11 22:55:17.2070954] UClass::ClassVTableHelperCtorCaller = 0xA0
+[2026-10-11 22:55:17.2071300] UClass::ClassUnique = 0xB0
+[2026-10-11 22:55:17.2071608] UClass::ClassWithin = 0xC0
+[2026-10-11 22:55:17.2071882] UClass::ClassConfigName = 0xD0
+[2026-10-11 22:55:17.2072156] UClass::bCooked = 0xB0
+[2026-10-11 22:55:17.2072446] UClass::ClassFlags = 0xB4
+[2026-10-11 22:55:17.2072726] UClass::ClassCastFlags = 0xB8
+[2026-10-11 22:55:17.2073021] UClass::ClassGeneratedBy = 0xC8
+[2026-10-11 22:55:17.2073295] UClass::NetFields = 0xE8
+[2026-10-11 22:55:17.2073587] UClass::ClassDefaultObject = 0xF8
+[2026-10-11 22:55:17.2073860] UClass::FuncMap = 0x100
+[2026-10-11 22:55:17.2074131] UClass::SuperFuncMap = 0x150
+[2026-10-11 22:55:17.2074421] UClass::Interfaces = 0x1A0
+[2026-10-11 22:55:17.2074693] UClass::ReferenceTokenStream = 0x1B0
+[2026-10-11 22:55:17.2074952] UClass::NativeFunctionLookupTable = 0x1E8
+[2026-10-11 22:55:17.2075193] UClass::UEP_TotalSize = 0x1F8
+[2026-10-11 22:55:17.2075565] UEnum::CppType = 0x30
+[2026-10-11 22:55:17.2076094] UEnum::Names = 0x40
+[2026-10-11 22:55:17.2076774] UEnum::CppForm = 0x50
+[2026-10-11 22:55:17.2077347] UEnum::EnumDisplayNameFn = 0x58
+[2026-10-11 22:55:17.2077822] UEnum::UEP_TotalSize = 0x60
+[2026-10-11 22:55:17.2078294] UFunction::FunctionFlags = 0x88
+[2026-10-11 22:55:17.2078748] UFunction::NumParms = 0x8C
+[2026-10-11 22:55:17.2079191] UFunction::ParmsSize = 0x8E
+[2026-10-11 22:55:17.2079656] UFunction::FirstPropertyToInit = 0x98
+[2026-10-11 22:55:17.2080097] UFunction::RPCId = 0x92
+[2026-10-11 22:55:17.2080545] UFunction::ReturnValueOffset = 0x90
+[2026-10-11 22:55:17.2080964] UFunction::RPCResponseId = 0x94
+[2026-10-11 22:55:17.2081361] UFunction::EventGraphFunction = 0xA0
+[2026-10-11 22:55:17.2081784] UFunction::EventGraphCallOffset = 0xA8
+[2026-10-11 22:55:17.2082209] UFunction::Func = 0xB0
+[2026-10-11 22:55:17.2082620] UFunction::UEP_TotalSize = 0xB8
+[2026-10-11 22:55:17.2083149] UField::Next = 0x28
+[2026-10-11 22:55:17.2083610] UField::UEP_TotalSize = 0x30
+[2026-10-11 22:55:17.2084076] FProperty::RepIndex = 0x40
+[2026-10-11 22:55:17.2084537] FProperty::ArrayDim = 0x30
+[2026-10-11 22:55:17.2085002] FProperty::ElementSize = 0x34
+[2026-10-11 22:55:17.2085455] FProperty::PropertyLinkNext = 0x50
+[2026-10-11 22:55:17.2085925] FProperty::PropertyFlags = 0x38
+[2026-10-11 22:55:17.2086400] FProperty::Offset_Internal = 0x44
+[2026-10-11 22:55:17.2086875] FProperty::RepNotifyFunc = 0x48
+[2026-10-11 22:55:17.2087343] FProperty::NextRef = 0x58
+[2026-10-11 22:55:17.2087811] FProperty::DestructorLinkNext = 0x60
+[2026-10-11 22:55:17.2088285] FProperty::PostConstructLinkNext = 0x68
+[2026-10-11 22:55:17.2088756] FProperty::UEP_TotalSize = 0x70
+[2026-10-11 22:55:17.2089225] FNumericProperty::RepIndex = 0x40
+[2026-10-11 22:55:17.2089700] FNumericProperty::ArrayDim = 0x30
+[2026-10-11 22:55:17.2090147] FNumericProperty::ElementSize = 0x34
+[2026-10-11 22:55:17.2090622] FNumericProperty::PropertyLinkNext = 0x50
+[2026-10-11 22:55:17.2091101] FNumericProperty::PropertyFlags = 0x38
+[2026-10-11 22:55:17.2091581] FNumericProperty::Offset_Internal = 0x44
+[2026-10-11 22:55:17.2092056] FNumericProperty::RepNotifyFunc = 0x48
+[2026-10-11 22:55:17.2092520] FNumericProperty::NextRef = 0x58
+[2026-10-11 22:55:17.2092981] FNumericProperty::DestructorLinkNext = 0x60
+[2026-10-11 22:55:17.2093461] FNumericProperty::PostConstructLinkNext = 0x68
+[2026-10-11 22:55:17.2093915] FNumericProperty::UEP_TotalSize = 0x70
+[2026-10-11 22:55:17.2094332] FObjectPropertyBase::PropertyClass = 0x70
+[2026-10-11 22:55:17.2094760] FObjectPropertyBase::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2095209] FStructProperty::Struct = 0x70
+[2026-10-11 22:55:17.2095704] FStructProperty::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2096158] FArrayProperty::Inner = 0x70
+[2026-10-11 22:55:17.2096596] FArrayProperty::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2097043] FMapProperty::KeyProp = 0x70
+[2026-10-11 22:55:17.2097487] FMapProperty::MapLayout = 0x80
+[2026-10-11 22:55:17.2097928] FMapProperty::ValueProp = 0x78
+[2026-10-11 22:55:17.2098370] FMapProperty::UEP_TotalSize = 0xA8
+[2026-10-11 22:55:17.2098897] FSetProperty::ElementProp = 0x70
+[2026-10-11 22:55:17.2099398] FSetProperty::UEP_TotalSize = 0x98
+[2026-10-11 22:55:17.2099848] FSetProperty::SetLayout = 0x78
+[2026-10-11 22:55:17.2100287] FBoolProperty::ByteOffset = 0x71
+[2026-10-11 22:55:17.2100726] FBoolProperty::FieldSize = 0x70
+[2026-10-11 22:55:17.2101166] FBoolProperty::FieldMask = 0x73
+[2026-10-11 22:55:17.2101605] FBoolProperty::ByteMask = 0x72
+[2026-10-11 22:55:17.2102053] FBoolProperty::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2102497] FByteProperty::Enum = 0x70
+[2026-10-11 22:55:17.2102943] FByteProperty::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2103389] FEnumProperty::UEP_TotalSize = 0x80
+[2026-10-11 22:55:17.2103834] FEnumProperty::UnderlyingProp = 0x70
+[2026-10-11 22:55:17.2104260] FEnumProperty::Enum = 0x78
+[2026-10-11 22:55:17.2104700] FClassProperty::MetaClass = 0x78
+[2026-10-11 22:55:17.2105140] FClassProperty::UEP_TotalSize = 0x80
+[2026-10-11 22:55:17.2105578] FSoftClassProperty::MetaClass = 0x78
+[2026-10-11 22:55:17.2106029] FSoftClassProperty::UEP_TotalSize = 0x80
+[2026-10-11 22:55:17.2106480] FDelegateProperty::SignatureFunction = 0x70
+[2026-10-11 22:55:17.2106910] FDelegateProperty::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2107351] FMulticastDelegateProperty::SignatureFunction = 0x70
+[2026-10-11 22:55:17.2107795] FMulticastDelegateProperty::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2108236] FInterfaceProperty::InterfaceClass = 0x70
+[2026-10-11 22:55:17.2108676] FInterfaceProperty::UEP_TotalSize = 0x78
+[2026-10-11 22:55:17.2109132] FWorldContext::ThisCurrentWorld = 0x288
+[2026-10-11 22:55:17.2109584] FWorldContext::ExternalReferences = 0x278
+[2026-10-11 22:55:17.2110033] FWorldContext::LastRemoteURL = 0x158
+[2026-10-11 22:55:17.2110479] FWorldContext::ContextHandle = 0xC8
+[2026-10-11 22:55:17.2110906] FWorldContext::PendingMapChangeFailureDescription = 0x200
+[2026-10-11 22:55:17.2111360] FWorldContext::TravelURL = 0xD0
+[2026-10-11 22:55:17.2111799] FWorldContext::TravelType = 0xE0
+[2026-10-11 22:55:17.2112241] FWorldContext::LastURL = 0xE8
+[2026-10-11 22:55:17.2112685] FWorldContext::LevelsToLoadForPendingMapChange = 0x1E0
+[2026-10-11 22:55:17.2113131] FWorldContext::bShouldCommitPendingMapChange = 0x210
+[2026-10-11 22:55:17.2113574] FWorldContext::GameViewport = 0x238
+[2026-10-11 22:55:17.2114020] FWorldContext::PIEInstance = 0x258
+[2026-10-11 22:55:17.2114467] FWorldContext::PIEPrefix = 0x260
+[2026-10-11 22:55:17.2114889] FWorldContext::RunAsDedicated = 0x270
+[2026-10-11 22:55:17.2115330] FWorldContext::bWaitingOnOnlineSubsystem = 0x271
+[2026-10-11 22:55:17.2115848] FWorldContext::AudioDeviceHandle = 0x274
+[2026-10-11 22:55:17.2116301] FWorldContext::UEP_TotalSize = 0x290
+[2026-10-11 22:55:17.2116744] FOutputDevice::bSuppressEventTag = 0x8
+[2026-10-11 22:55:17.2117192] FOutputDevice::bAutoEmitLineTerminator = 0x9
+[2026-10-11 22:55:17.2117646] FOutputDevice::UEP_TotalSize = 0x10
+[2026-10-11 22:55:17.2118098] FArchive::ArIsTextFormat = 0x28
+[2026-10-11 22:55:17.2118546] FArchive::ArIsLoading = 0x28
+[2026-10-11 22:55:17.2118994] FArchive::ArPortFlags = 0x30
+[2026-10-11 22:55:17.2119437] FArchive::ArIsTransacting = 0x28
+[2026-10-11 22:55:17.2119852] FArchive::ArIsSaving = 0x28
+[2026-10-11 22:55:17.2120288] FArchive::ArForceByteSwapping = 0x29
+[2026-10-11 22:55:17.2120715] FArchive::ArIsError = 0x28
+[2026-10-11 22:55:17.2121128] FArchive::ArForceUnicode = 0x28
+[2026-10-11 22:55:17.2121509] FArchive::ArWantBinaryPropertySerialization = 0x28
+[2026-10-11 22:55:17.2121908] FArchive::ArIsObjectReferenceCollector = 0x2A
+[2026-10-11 22:55:17.2122309] FArchive::ArIsPersistent = 0x28
+[2026-10-11 22:55:17.2122685] FArchive::ArIsCriticalError = 0x29
+[2026-10-11 22:55:17.2123066] FArchive::ArCustomPropertyList = 0x68
+[2026-10-11 22:55:17.2123408] FArchive::ArContainsCode = 0x29
+[2026-10-11 22:55:17.2123763] FArchive::ArIsNetArchive = 0x2B
+[2026-10-11 22:55:17.2124149] FArchive::ArContainsMap = 0x29
+[2026-10-11 22:55:17.2124545] FArchive::ArRequiresLocalizationGather = 0x29
+[2026-10-11 22:55:17.2124948] FArchive::ArIgnoreArchetypeRef = 0x29
+[2026-10-11 22:55:17.2125409] FArchive::ArNoDelta = 0x29
+[2026-10-11 22:55:17.2125858] FArchive::ArIgnoreOuterRef = 0x29
+[2026-10-11 22:55:17.2126256] FArchive::ArIgnoreClassGeneratedByRef = 0x2A
+[2026-10-11 22:55:17.2126694] FArchive::ArIgnoreClassRef = 0x2A
+[2026-10-11 22:55:17.2127128] FArchive::ArAllowLazyLoading = 0x2A
+[2026-10-11 22:55:17.2127553] FArchive::ArIsModifyingWeakAndStrongReferences = 0x2A
+[2026-10-11 22:55:17.2127985] FArchive::ArIsCountingMemory = 0x2A
+[2026-10-11 22:55:17.2128450] FArchive::bCustomVersionsAreReset = 0x88
+[2026-10-11 22:55:17.2128912] FArchive::ArEngineNetVer = 0x54
+[2026-10-11 22:55:17.2129407] FArchive::ArShouldSkipBulkData = 0x2A
+[2026-10-11 22:55:17.2129857] FArchive::ArIsFilterEditorOnly = 0x2A
+[2026-10-11 22:55:17.2130312] FArchive::ArIsSaveGame = 0x2B
+[2026-10-11 22:55:17.2130796] FArchive::ArUseCustomPropertyList = 0x2B
+[2026-10-11 22:55:17.2131271] FArchive::UEP_TotalSize = 0x90
+[2026-10-11 22:55:17.2131756] FArchive::ArSerializingDefaults = 0x2C
+[2026-10-11 22:55:17.2132190] FArchive::ArMaxSerializeSize = 0x38
+[2026-10-11 22:55:17.2132577] FArchive::ArUE4Ver = 0x40
+[2026-10-11 22:55:17.2133097] FArchive::ArLicenseeUE4Ver = 0x44
+[2026-10-11 22:55:17.2133547] FArchive::ArEngineVer = 0x48
+[2026-10-11 22:55:17.2133844] FArchive::ArGameNetVer = 0x58
+[2026-10-11 22:55:17.2134122] FArchive::CustomVersionContainer = 0x60
+[2026-10-11 22:55:17.2134396] FArchive::CookingTargetPlatform = 0x70
+[2026-10-11 22:55:17.2134658] FArchive::SerializedProperty = 0x78
+[2026-10-11 22:55:17.2134938] AActor::NetUpdateFrequency = 0x130
+[2026-10-11 22:55:17.2135213] AActor::PrimaryActorTick = 0x28
+[2026-10-11 22:55:17.2135523] AActor::bReplicateMovement = 0x80
+[2026-10-11 22:55:17.2135820] AActor::bAlwaysRelevant = 0x80
+[2026-10-11 22:55:17.2136103] AActor::bNetCheckedInitialPhysicsState = 0x83
+[2026-10-11 22:55:17.2136380] AActor::bNetStartup = 0x80
+[2026-10-11 22:55:17.2136655] AActor::bReplayRewindable = 0x81
+[2026-10-11 22:55:17.2136975] AActor::bHidden = 0x80
+[2026-10-11 22:55:17.2137254] AActor::bNetTemporary = 0x80
+[2026-10-11 22:55:17.2137516] AActor::ActorHasBegunPlay = 0x84
+[2026-10-11 22:55:17.2137789] AActor::bIsEditorOnlyActor = 0x82
+[2026-10-11 22:55:17.2138064] AActor::bTearOff = 0x80
+[2026-10-11 22:55:17.2138336] AActor::bOnlyRelevantToOwner = 0x80
+[2026-10-11 22:55:17.2138606] AActor::bExchangedRoles = 0x80
+[2026-10-11 22:55:17.2138865] AActor::Children = 0x148
+[2026-10-11 22:55:17.2139188] AActor::bNetLoadOnClient = 0x81
+[2026-10-11 22:55:17.2139460] AActor::AutoReceiveInput = 0x11B
+[2026-10-11 22:55:17.2139729] AActor::bNetUseOwnerRelevancy = 0x81
+[2026-10-11 22:55:17.2139984] AActor::ControllingMatineeActors = 0x160
+[2026-10-11 22:55:17.2140259] AActor::Role = 0x118
+[2026-10-11 22:55:17.2140534] AActor::bGenerateOverlapEventsDuringLevelStreaming = 0x82
+[2026-10-11 22:55:17.2140808] AActor::bCollideWhenPlacing = 0x82
+[2026-10-11 22:55:17.2141081] AActor::bRelevantForNetworkReplays = 0x81
+[2026-10-11 22:55:17.2141340] AActor::InputPriority = 0x11C
+[2026-10-11 22:55:17.2141612] AActor::bCanBeInCluster = 0x83
+[2026-10-11 22:55:17.2141884] AActor::bAllowTickBeforeBeginPlay = 0x81
+[2026-10-11 22:55:17.2142156] AActor::Tags = 0x190
+[2026-10-11 22:55:17.2142423] AActor::InputComponent = 0x120
+[2026-10-11 22:55:17.2142677] AActor::bHasFinishedSpawning = 0x83
+[2026-10-11 22:55:17.2142954] AActor::bAutoDestroyWhenFinished = 0x81
+[2026-10-11 22:55:17.2143225] AActor::SpawnCollisionHandlingMethod = 0x11A
+[2026-10-11 22:55:17.2143500] AActor::bIgnoresOriginShifting = 0x82
+[2026-10-11 22:55:17.2143754] AActor::bBlockInput = 0x81
+[2026-10-11 22:55:17.2144028] AActor::bCanBeDamaged = 0x81
+[2026-10-11 22:55:17.2144303] AActor::bFindCameraComponentWhenViewTarget = 0x82
+[2026-10-11 22:55:17.2144578] AActor::bActorInitialized = 0x83
+[2026-10-11 22:55:17.2145000] AActor::bEnableAutoLODGeneration = 0x82
+[2026-10-11 22:55:17.2145437] AActor::bActorSeamlessTraveled = 0x82
+[2026-10-11 22:55:17.2145734] AActor::bReplicates = 0x82
+[2026-10-11 22:55:17.2146014] AActor::bActorEnableCollision = 0x84
+[2026-10-11 22:55:17.2146343] AActor::bAllowReceiveTickEventOnDedicatedServer = 0x83
+[2026-10-11 22:55:17.2146674] AActor::bTickFunctionsRegistered = 0x83
+[2026-10-11 22:55:17.2146962] AActor::bHasDeferredComponentRegistration = 0x83
+[2026-10-11 22:55:17.2147258] AActor::AttachmentReplication = 0xC8
+[2026-10-11 22:55:17.2147580] AActor::bRunningUserConstructionScript = 0x83
+[2026-10-11 22:55:17.2147870] AActor::bActorIsBeingDestroyed = 0x84
+[2026-10-11 22:55:17.2148144] AActor::bActorWantsDestroyDuringBeginPlay = 0x84
+[2026-10-11 22:55:17.2148435] AActor::Layers = 0x178
+[2026-10-11 22:55:17.2148705] AActor::RemoteRole = 0x85
+[2026-10-11 22:55:17.2148978] AActor::ReplicatedMovement = 0x88
+[2026-10-11 22:55:17.2149264] AActor::InitialLifeSpan = 0xBC
+[2026-10-11 22:55:17.2149537] AActor::CustomTimeDilation = 0xC0
+[2026-10-11 22:55:17.2149821] AActor::CreationTime = 0xC4
+[2026-10-11 22:55:17.2150095] AActor::Owner = 0x108
+[2026-10-11 22:55:17.2150372] AActor::NetDriverName = 0x110
+[2026-10-11 22:55:17.2150661] AActor::NetDormancy = 0x119
+[2026-10-11 22:55:17.2150935] AActor::OnTakeAnyDamage = 0x1A0
+[2026-10-11 22:55:17.2151221] AActor::TimerHandle_LifeSpanExpired = 0x170
+[2026-10-11 22:55:17.2151499] AActor::NetCullDistanceSquared = 0x128
+[2026-10-11 22:55:17.2151774] AActor::NetPriority = 0x138
+[2026-10-11 22:55:17.2152059] AActor::NetTag = 0x12C
+[2026-10-11 22:55:17.2152333] AActor::MinNetUpdateFrequency = 0x134
+[2026-10-11 22:55:17.2152620] AActor::RootComponent = 0x158
+[2026-10-11 22:55:17.2152889] AActor::ParentComponent = 0x188
+[2026-10-11 22:55:17.2153179] AActor::OnTakePointDamage = 0x1B0
+[2026-10-11 22:55:17.2153449] AActor::OnTakeRadialDamage = 0x1C0
+[2026-10-11 22:55:17.2153736] AActor::OnActorBeginOverlap = 0x1D0
+[2026-10-11 22:55:17.2154008] AActor::OnActorEndOverlap = 0x1E0
+[2026-10-11 22:55:17.2154282] AActor::OnBeginCursorOver = 0x1F0
+[2026-10-11 22:55:17.2154571] AActor::OnEndCursorOver = 0x200
+[2026-10-11 22:55:17.2154839] AActor::OnClicked = 0x210
+[2026-10-11 22:55:17.2155127] AActor::OnReleased = 0x220
+[2026-10-11 22:55:17.2155396] AActor::OnInputTouchBegin = 0x230
+[2026-10-11 22:55:17.2155721] AActor::OnInputTouchEnd = 0x240
+[2026-10-11 22:55:17.2156004] AActor::OnInputTouchEnter = 0x250
+[2026-10-11 22:55:17.2156293] AActor::OnInputTouchLeave = 0x260
+[2026-10-11 22:55:17.2156567] AActor::OnActorHit = 0x270
+[2026-10-11 22:55:17.2156857] AActor::OnDestroyed = 0x280
+[2026-10-11 22:55:17.2157126] AActor::OnEndPlay = 0x290
+[2026-10-11 22:55:17.2157413] AActor::DetachFence = 0x320
+[2026-10-11 22:55:17.2157682] AActor::UEP_TotalSize = 0x328
+[2026-10-11 22:55:17.2158004] AGameModeBase::OptionsString = 0x328
+[2026-10-11 22:55:17.2158294] AGameModeBase::ServerStatReplicator = 0x390
+[2026-10-11 22:55:17.2158573] AGameModeBase::GameSessionClass = 0x338
+[2026-10-11 22:55:17.2158863] AGameModeBase::PlayerStateClass = 0x350
+[2026-10-11 22:55:17.2159132] AGameModeBase::HUDClass = 0x358
+[2026-10-11 22:55:17.2159423] AGameModeBase::SpectatorClass = 0x368
+[2026-10-11 22:55:17.2159692] AGameModeBase::GameSession = 0x380
+[2026-10-11 22:55:17.2159985] AGameModeBase::ServerStatReplicatorClass = 0x378
+[2026-10-11 22:55:17.2160255] AGameModeBase::DefaultPlayerName = 0x398
+[2026-10-11 22:55:17.2160527] AGameModeBase::bUseSeamlessTravel = 0x3B0
+[2026-10-11 22:55:17.2160815] AGameModeBase::bStartPlayersAsSpectators = 0x3B0
+[2026-10-11 22:55:17.2161094] AGameModeBase::bPauseable = 0x3B0
+[2026-10-11 22:55:17.2161378] AGameModeBase::Pausers = 0x3B8
+[2026-10-11 22:55:17.2161650] AGameModeBase::UEP_TotalSize = 0x3C8
+[2026-10-11 22:55:17.2161937] AGameMode::NumBots = 0x3DC
+[2026-10-11 22:55:17.2162208] AGameMode::MatchState = 0x3C8
+[2026-10-11 22:55:17.2162498] AGameMode::NumSpectators = 0x3D4
+[2026-10-11 22:55:17.2162766] AGameMode::NumPlayers = 0x3D8
+[2026-10-11 22:55:17.2163039] AGameMode::bDelayedStart = 0x3D0
+[2026-10-11 22:55:17.2163324] AGameMode::MinRespawnDelay = 0x3E0
+[2026-10-11 22:55:17.2163601] AGameMode::EngineMessageClass = 0x3E8
+[2026-10-11 22:55:17.2163888] AGameMode::NumTravellingPlayers = 0x3E4
+[2026-10-11 22:55:17.2164492] AGameMode::InactivePlayerArray = 0x3F0
+[2026-10-11 22:55:17.2165235] AGameMode::InactivePlayerStateLifeSpan = 0x400
+[2026-10-11 22:55:17.2165656] AGameMode::MaxInactivePlayers = 0x404
+[2026-10-11 22:55:17.2165996] AGameMode::bHandleDedicatedServerReplays = 0x408
+[2026-10-11 22:55:17.2166312] AGameMode::UEP_TotalSize = 0x410
+[2026-10-11 22:55:17.2166597] UEngine::NamePrivate = 0x18
+[2026-10-11 22:55:17.2166901] UEngine::ObjectFlags = 0x8
+[2026-10-11 22:55:17.2167178] UEngine::ClassPrivate = 0x10
+[2026-10-11 22:55:17.2167475] UEngine::InternalIndex_Private = 0xC
+[2026-10-11 22:55:17.2167750] UEngine::OuterPrivate = 0x20
+[2026-10-11 22:55:17.2168026] UEngine::UEP_TotalSize = 0x28
+[2026-10-11 22:55:17.2168319] UGameViewportClient::ViewportConsole = 0x40
+[2026-10-11 22:55:17.2168596] UGameViewportClient::SplitscreenInfo = 0x58
+[2026-10-11 22:55:17.2168931] UGameViewportClient::HardwareCursorCache = 0xF0
+[2026-10-11 22:55:17.2169421] UGameViewportClient::DebugProperties = 0x48
+[2026-10-11 22:55:17.2169850] UGameViewportClient::World = 0x78
+[2026-10-11 22:55:17.2170162] UGameViewportClient::ActiveSplitscreenType = 0x70
+[2026-10-11 22:55:17.2170445] UGameViewportClient::bHasAudioFocus = 0x2E4
+[2026-10-11 22:55:17.2170723] UGameViewportClient::ViewportOverlayWidget = 0xB8
+[2026-10-11 22:55:17.2171014] UGameViewportClient::MaxSplitscreenPlayers = 0x68
+[2026-10-11 22:55:17.2171288] UGameViewportClient::bDisableWorldRendering = 0x6C
+[2026-10-11 22:55:17.2171565] UGameViewportClient::bIsPlayInEditorViewport = 0x6C
+[2026-10-11 22:55:17.2171855] UGameViewportClient::bShowTitleSafeZone = 0x6C
+[2026-10-11 22:55:17.2172129] UGameViewportClient::bSuppressTransitionMessage = 0x88
+[2026-10-11 22:55:17.2172416] UGameViewportClient::ViewModeIndex = 0x8C
+[2026-10-11 22:55:17.2172747] UGameViewportClient::EngineShowFlags = 0x90
+[2026-10-11 22:55:17.2173035] UGameViewportClient::Viewport = 0x98
+[2026-10-11 22:55:17.2173311] UGameViewportClient::MouseLockMode = 0x2DC
+[2026-10-11 22:55:17.2173600] UGameViewportClient::ViewportFrame = 0xA0
+[2026-10-11 22:55:17.2173874] UGameViewportClient::bDisableSplitScreenOverride = 0x2D8
+[2026-10-11 22:55:17.2174160] UGameViewportClient::Window = 0xA8
+[2026-10-11 22:55:17.2174435] UGameViewportClient::GameLayerManagerPtr = 0xC8
+[2026-10-11 22:55:17.2174727] UGameViewportClient::UEP_TotalSize = 0x2E8
+[2026-10-11 22:55:17.2174994] UGameViewportClient::CurrentBufferVisualizationMode = 0xD8
+[2026-10-11 22:55:17.2175290] UGameViewportClient::HighResScreenshotDialog = 0xE0
+[2026-10-11 22:55:17.2175560] UGameViewportClient::HardwareCursors = 0x140
+[2026-10-11 22:55:17.2175852] UGameViewportClient::CustomNavigationEvent = 0x2B8
+[2026-10-11 22:55:17.2176122] UGameViewportClient::CursorWidgets = 0x190
+[2026-10-11 22:55:17.2176413] UGameViewportClient::bUseSoftwareCursorWidgets = 0x1E0
+[2026-10-11 22:55:17.2176689] UGameViewportClient::WindowCloseRequestedDelegate = 0x200
+[2026-10-11 22:55:17.2176980] UGameViewportClient::StatUnitData = 0x2C8
+[2026-10-11 22:55:17.2177251] UGameViewportClient::StatHitchesData = 0x2D0
+[2026-10-11 22:55:17.2177525] UGameViewportClient::bIgnoreInput = 0x2D9
+[2026-10-11 22:55:17.2177811] UGameViewportClient::MouseCaptureMode = 0x2DA
+[2026-10-11 22:55:17.2178084] UGameViewportClient::bHideCursorDuringCapture = 0x2DB
+[2026-10-11 22:55:17.2178372] UGameViewportClient::AudioDeviceHandle = 0x2E0
+[2026-10-11 22:55:17.2178646] UGameViewportClient::bIsMouseOverClient = 0x2E5
+[2026-10-11 22:55:17.2178938] UPlayer::CurrentNetSpeed = 0x38
+[2026-10-11 22:55:17.2179215] UPlayer::UEP_TotalSize = 0x48
+[2026-10-11 22:55:17.2179506] UPlayer::ConfiguredLanSpeed = 0x40
+[2026-10-11 22:55:17.2180001] UPlayer::ConfiguredInternetSpeed = 0x3C
+[2026-10-11 22:55:17.2180626] ULocalPlayer::ControllerId = 0x108
+[2026-10-11 22:55:17.2181190] ULocalPlayer::CachedUniqueNetId = 0x48
+[2026-10-11 22:55:17.2181792] ULocalPlayer::Size = 0x80
+[2026-10-11 22:55:17.2182329] ULocalPlayer::ViewportClient = 0x70
+[2026-10-11 22:55:17.2182803] ULocalPlayer::Origin = 0x78
+[2026-10-11 22:55:17.2183274] ULocalPlayer::LastViewLocation = 0x88
+[2026-10-11 22:55:17.2184689] ULocalPlayer::AspectRatioAxisConstraint = 0x94
+[2026-10-11 22:55:17.2185303] ULocalPlayer::bSentSplitJoin = 0xA0
+[2026-10-11 22:55:17.2185710] ULocalPlayer::SlateOperations = 0x110
+[2026-10-11 22:55:17.2186012] ULocalPlayer::UEP_TotalSize = 0x1C8
+[2026-10-11 22:55:17.2186292] UWorld::PerModuleDataObjects = 0x78
+[2026-10-11 22:55:17.2186582] UWorld::ExtraReferencedObjects = 0x68
+[2026-10-11 22:55:17.2186853] UWorld::bPlayersOnlyPending = 0x820
+[2026-10-11 22:55:17.2187127] UWorld::bWorldWasLoadedThisTick = 0x130
+[2026-10-11 22:55:17.2187414] UWorld::bAggressiveLOD = 0x820
+[2026-10-11 22:55:17.2187686] UWorld::StreamingLevelsPrefix = 0xE8
+[2026-10-11 22:55:17.2187970] UWorld::ViewLocationsRenderedLastFrame = 0x120
+[2026-10-11 22:55:17.2188238] UWorld::bIsLevelStreamingFrozen = 0x700
+[2026-10-11 22:55:17.2188530] UWorld::StreamingVolumeUpdateDelay = 0x6FC
+[2026-10-11 22:55:17.2188798] UWorld::bTriggerPostLoadMap = 0x130
+[2026-10-11 22:55:17.2189071] UWorld::AuthorityGameMode = 0x140
+[2026-10-11 22:55:17.2189354] UWorld::bTickNewlySpawned = 0x5E2
+[2026-10-11 22:55:17.2189627] UWorld::bAllowAudioPlayback = 0x820
+[2026-10-11 22:55:17.2189910] UWorld::ActiveLevelCollectionIndex = 0x180
+[2026-10-11 22:55:17.2190183] UWorld::bRequiresHitProxies = 0x3D8
+[2026-10-11 22:55:17.2190472] UWorld::bShouldTick = 0x3D9
+[2026-10-11 22:55:17.2190745] UWorld::NumTextureStreamingUnbuiltComponents = 0x818
+[2026-10-11 22:55:17.2191037] UWorld::bStreamingDataDirty = 0x4F0
+[2026-10-11 22:55:17.2191305] UWorld::BuildStreamingDataTimer = 0x4F8
+[2026-10-11 22:55:17.2191578] UWorld::URL = 0x560
+[2026-10-11 22:55:17.2191866] UWorld::bInTick = 0x5E0
+[2026-10-11 22:55:17.2192133] UWorld::TimeSeconds = 0x790
+[2026-10-11 22:55:17.2192404] UWorld::bIsBuilt = 0x5E1
+[2026-10-11 22:55:17.2192686] UWorld::bPostTickComponentUpdate = 0x6F0
+[2026-10-11 22:55:17.2192954] UWorld::bIsDefaultLevel = 0x820
+[2026-10-11 22:55:17.2193243] UWorld::PlayerNum = 0x6F4
+[2026-10-11 22:55:17.2193509] UWorld::bShouldSimulatePhysics = 0x70E
+[2026-10-11 22:55:17.2193779] UWorld::bIsWorldInitialized = 0x6F8
+[2026-10-11 22:55:17.2194069] UWorld::bShouldForceUnloadStreamingLevels = 0x701
+[2026-10-11 22:55:17.2194341] UWorld::bShouldForceVisibleStreamingLevels = 0x702
+[2026-10-11 22:55:17.2194625] UWorld::NextURL = 0x7E0
+[2026-10-11 22:55:17.2194891] UWorld::RealTimeSeconds = 0x798
+[2026-10-11 22:55:17.2195181] UWorld::bMaterialParameterCollectionInstanceNeedsDeferredUpdate = 0x703
+[2026-10-11 22:55:17.2195455] UWorld::bDoDelayedUpdateCullDistanceVolumes = 0x704
+[2026-10-11 22:55:17.2195746] UWorld::AudioDeviceHandle = 0x780
+[2026-10-11 22:55:17.2196013] UWorld::bHack_Force_UsesGameHiddenFlags_True = 0x70C
+[2026-10-11 22:55:17.2196286] UWorld::bIsRunningConstructionScript = 0x70D
+[2026-10-11 22:55:17.2196571] UWorld::DebugDrawTraceTag = 0x710
+[2026-10-11 22:55:17.2196844] UWorld::bRequestedBlockOnAsyncLoading = 0x820
+[2026-10-11 22:55:17.2197132] UWorld::bDropDetail = 0x820
+[2026-10-11 22:55:17.2197398] UWorld::bDebugDrawAllTraceTags = 0x718
+[2026-10-11 22:55:17.2197686] UWorld::LastTimeUnbuiltLightingWasEncountered = 0x788
+[2026-10-11 22:55:17.2197953] UWorld::UnpausedTimeSeconds = 0x794
+[2026-10-11 22:55:17.2198227] UWorld::CommittedPersistentLevelName = 0x808
+[2026-10-11 22:55:17.2198509] UWorld::AudioTimeSeconds = 0x79C
+[2026-10-11 22:55:17.2198785] UWorld::DeltaTimeSeconds = 0x7A0
+[2026-10-11 22:55:17.2199067] UWorld::bPlayersOnly = 0x820
+[2026-10-11 22:55:17.2199331] UWorld::PauseDelay = 0x7A4
+[2026-10-11 22:55:17.2199618] UWorld::OriginOffsetThisFrame = 0x7C0
+[2026-10-11 22:55:17.2199885] UWorld::NextSwitchCountdown = 0x7F0
+[2026-10-11 22:55:17.2200158] UWorld::bDebugFrameStepExecution = 0x820
+[2026-10-11 22:55:17.2200440] UWorld::PreparingLevelNames = 0x7F8
+[2026-10-11 22:55:17.2200710] UWorld::NumTextureStreamingDirtyResources = 0x81C
+[2026-10-11 22:55:17.2201063] UWorld::NumLightingUnbuiltObjects = 0x810
+[2026-10-11 22:55:17.2201648] UWorld::bDebugPauseExecution = 0x820
+[2026-10-11 22:55:17.2201979] UWorld::NumUnbuiltReflectionCaptures = 0x814
+[2026-10-11 22:55:17.2202299] UWorld::bActorsInitialized = 0x820
+[2026-10-11 22:55:17.2202626] UWorld::bBegunPlay = 0x820
+[2026-10-11 22:55:17.2202923] UWorld::bIsCameraMoveableWhenPaused = 0x820
+[2026-10-11 22:55:17.2203193] UWorld::bMatchStarted = 0x820
+[2026-10-11 22:55:17.2203463] UWorld::bStartup = 0x820
+[2026-10-11 22:55:17.2203748] UWorld::bAreConstraintsDirty = 0x820
+[2026-10-11 22:55:17.2204021] UWorld::bIsTearingDown = 0x820
+[2026-10-11 22:55:17.2204309] UWorld::bKismetScriptError = 0x820
+[2026-10-11 22:55:17.2204575] UWorld::UEP_TotalSize = 0x8A0
+[2026-10-11 22:55:17.2204866] UDataTable::RowStruct = 0x28
+[2026-10-11 22:55:17.2205129] UDataTable::RowMap = 0x30
+[2026-10-11 22:55:17.2205399] UDataTable::bStripFromClientBuilds = 0x80
+[2026-10-11 22:55:17.2205681] UDataTable::UEP_TotalSize = 0x88
+[2026-10-11 22:55:17.2205950] FUObjectItem::Object = 0x0
+[2026-10-11 22:55:17.2206220] FUObjectItem::Flags = 0x8
+[2026-10-11 22:55:17.2206509] FUObjectItem::ClusterRootIndex = 0xC
+[2026-10-11 22:55:17.2206776] FUObjectItem::SerialNumber = 0x10
+[2026-10-11 22:55:17.2207047] FUObjectItem::UEP_TotalSize = 0x18
+[2026-10-11 22:55:17.2207329] FUObjectArray::MasterSerialNumber = 0x1A8
+[2026-10-11 22:55:17.2207601] FUObjectArray::ObjFirstGCIndex = 0x0
+[2026-10-11 22:55:17.2207887] FUObjectArray::ObjLastNonGCIndex = 0x4
+[2026-10-11 22:55:17.2208155] FUObjectArray::MaxObjectsNotConsideredByGC = 0x8
+[2026-10-11 22:55:17.2208445] FUObjectArray::ObjObjects = 0x10
+[2026-10-11 22:55:17.2208713] FUObjectArray::UObjectCreateListeners = 0x160
+[2026-10-11 22:55:17.2208984] FUObjectArray::OpenForDisregardForGC = 0xC
+[2026-10-11 22:55:17.2209267] FUObjectArray::UObjectDeleteListeners = 0x170
+[2026-10-11 22:55:17.2209531] FUObjectArray::UEP_TotalSize = 0x1B0
+[2026-10-11 22:55:17.2209804] TUObjectArray::NumChunks = 0x1C
+[2026-10-11 22:55:17.2210088] TUObjectArray::Objects = 0x0
+[2026-10-11 22:55:17.2210358] TUObjectArray::UEP_TotalSize = 0x20
+[2026-10-11 22:55:17.2210646] TUObjectArray::PreAllocatedObjects = 0x8
+[2026-10-11 22:55:17.2210913] TUObjectArray::MaxElements = 0x10
+[2026-10-11 22:55:17.2211199] TUObjectArray::NumElements = 0x14
+[2026-10-11 22:55:17.2211464] TUObjectArray::MaxChunks = 0x18
+[2026-10-11 22:55:17.2211752] 
+##### MEMBER OFFSETS END (Coalesced) #####
+
+[2026-10-11 22:55:17.2212234] [UE4SS.EngineTick.HashTableSelfTest] Added posthook with Id '0X20000000000002'!
+[2026-10-11 22:55:17.2212591] Unreal Engine modules (non-modular):
+[2026-10-11 22:55:17.2213719] MainExe @ 0x7ff730620000 size=0x351c000
+[2026-10-11 22:55:17.2214661] m_shared_functions: 0x2b0a3d832f0
+[2026-10-11 22:55:17.2221045] Input source set to: Win32Async
+[2026-10-11 22:55:17.2250124] [UE4SS.LoadMap.LuaModImpl] Added prehook with Id '0X2040000000000001'!
+[2026-10-11 22:55:17.2250714] [UE4SS.LoadMap.LuaModImpl] Added posthook with Id '0X40000000000002'!
+[2026-10-11 22:55:17.2278478] [UE4SS.InitGameState.LuaModImpl] Added prehook with Id '0X2010000000000001'!
+[2026-10-11 22:55:17.2279039] [UE4SS.InitGameState.LuaModImpl] Added posthook with Id '0X10000000000002'!
+[2026-10-11 22:55:17.2305639] [UE4SS.BeginPlay.LuaModImpl] Added prehook with Id '0X2008000000000001'!
+[2026-10-11 22:55:17.2306309] [UE4SS.BeginPlay.LuaModImpl] Added posthook with Id '0X8000000000002'!
+[2026-10-11 22:55:17.2332153] [UE4SS.EndPlay.LuaModImpl] Added prehook with Id '0X2004000000000001'!
+[2026-10-11 22:55:17.2332714] [UE4SS.EndPlay.LuaModImpl] Added posthook with Id '0X4000000000002'!
+[2026-10-11 22:55:17.2333345] [UnknownMod.StaticConstructObject.PostHook] Added posthook with Id '0X1000000000000002'!
+[2026-10-11 22:55:17.3138189] [UnknownMod.ULocalPlayerExec.PreHook] Added prehook with Id '0X2000400000000001'!
+[2026-10-11 22:55:17.3139001] [UnknownMod.ULocalPlayerExec.PostHook] Added posthook with Id '0X400000000002'!
+[2026-10-11 22:55:17.3160257] [UnknownMod.CallFunctionByNameWithArguments.PreHook] Added prehook with Id '0X2000800000000001'!
+[2026-10-11 22:55:17.3160743] [UnknownMod.CallFunctionByNameWithArguments.PostHook] Added posthook with Id '0X800000000002'!
+[2026-10-11 22:55:17.3180510] [UnknownMod.ProcessConsoleExec.PostHook] Added posthook with Id '0X400000000000001'!
+[2026-10-11 22:55:17.3181185] [UnknownMod.ProcessConsoleExec.PreHook] Added prehook with Id '0X2400000000000002'!
+[2026-10-11 22:55:17.3181622] [UnknownMod.ProcessConsoleExec.PostHook] Added posthook with Id '0X400000000000003'!
+[2026-10-11 22:55:17.3182020] [UnknownMod.ProcessConsoleExec.PostHook] Added posthook with Id '0X400000000000004'!
+[2026-10-11 22:55:17.3182365] [UnknownMod.ProcessConsoleExec.PostHook] Added posthook with Id '0X400000000000005'!
+[2026-10-11 22:55:17.3182615] Enabling custom events
+[2026-10-11 22:55:17.3204760] [UE4SS.ProcessInternal.LuaModImplScriptHook] Added posthook with Id '0X100000000000001'!
+[2026-10-11 22:55:17.3205781] Starting mods (from mods.txt (E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss\Mods\mods.txt) load order)...
+[2026-10-11 22:55:17.3208070] Starting Lua mod 'CheatManagerEnablerMod'
+[2026-10-11 22:55:17.3213343] [Lua] Exposing size of 'class RC::Unreal::FObjectProperty' as 0x8
+[2026-10-11 22:55:17.3214287] [Lua] Failed to expose size of 'class RC::Unreal::FObjectPtrProperty', internal value invalid, manually set this value in your Lua mod if you intend to use it.
+[2026-10-11 22:55:17.3214734] [Lua] Exposing size of 'class RC::Unreal::FInt8Property' as 0x1
+[2026-10-11 22:55:17.3215074] [Lua] Exposing size of 'class RC::Unreal::FInt16Property' as 0x2
+[2026-10-11 22:55:17.3215501] [Lua] Exposing size of 'class RC::Unreal::FIntProperty' as 0x4
+[2026-10-11 22:55:17.3215865] [Lua] Exposing size of 'class RC::Unreal::FInt64Property' as 0x8
+[2026-10-11 22:55:17.3216179] [Lua] Exposing size of 'class RC::Unreal::FByteProperty' as 0x1
+[2026-10-11 22:55:17.3216533] [Lua] Exposing size of 'class RC::Unreal::FUInt16Property' as 0x2
+[2026-10-11 22:55:17.3216864] [Lua] Exposing size of 'class RC::Unreal::FUInt32Property' as 0x4
+[2026-10-11 22:55:17.3217181] [Lua] Exposing size of 'class RC::Unreal::FUInt64Property' as 0x8
+[2026-10-11 22:55:17.3217493] [Lua] Exposing size of 'class RC::Unreal::FNameProperty' as 0x8
+[2026-10-11 22:55:17.3217800] [Lua] Exposing size of 'class RC::Unreal::FFloatProperty' as 0x4
+[2026-10-11 22:55:17.3218154] [Lua] Exposing size of 'class RC::Unreal::FBoolProperty' as 0x1
+[2026-10-11 22:55:17.3218477] [Lua] Exposing size of 'class RC::Unreal::FArrayProperty' as 0x10
+[2026-10-11 22:55:17.3218788] [Lua] Exposing size of 'class RC::Unreal::FSetProperty' as 0x50
+[2026-10-11 22:55:17.3219098] [Lua] Exposing size of 'class RC::Unreal::FMapProperty' as 0x50
+[2026-10-11 22:55:17.3219609] [Lua] Failed to expose size of 'class RC::Unreal::FStructProperty', internal value invalid, manually set this value in your Lua mod if you intend to use it.
+[2026-10-11 22:55:17.3220038] [Lua] Exposing size of 'class RC::Unreal::FClassProperty' as 0x8
+[2026-10-11 22:55:17.3220378] [Lua] Exposing size of 'class RC::Unreal::FWeakObjectProperty' as 0x8
+[2026-10-11 22:55:17.3220868] [Lua] Failed to expose size of 'class RC::Unreal::FEnumProperty', internal value invalid, manually set this value in your Lua mod if you intend to use it.
+[2026-10-11 22:55:17.3221234] [Lua] Exposing size of 'class RC::Unreal::FTextProperty' as 0x18
+[2026-10-11 22:55:17.3221552] [Lua] Exposing size of 'class RC::Unreal::FStrProperty' as 0x10
+[2026-10-11 22:55:17.3250642] [RegisterHook] Registered native hook (1, 2) for Function /Script/Engine.PlayerController:ClientRestart
+[2026-10-11 22:55:17.3251201] Starting Lua mod 'ConsoleCommandsMod'
+[2026-10-11 22:55:17.3276606] Starting Lua mod 'ConsoleEnablerMod'
+[2026-10-11 22:55:17.3289476] [UE4SS.EngineTick.LuaModImpl] Added prehook with Id '0X2020000000000003'!
+[2026-10-11 22:55:17.3314172] [RegisterHook] Registered native hook (3, 4) for Function /Script/Engine.PlayerController:ClientRestart
+[2026-10-11 22:55:17.3314699] Starting Lua mod 'BPML_GenericFunctions'
+[2026-10-11 22:55:17.3322580] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2026-10-11 22:55:17.3323056] Starting Lua mod 'HnLink'
+[2026-10-11 22:55:17.3381165] [Lua] [HnLink] Lua garbage collector: incremental, pause 150, step 300 (was incremental)
+[2026-10-11 22:55:17.3384743] [NotifyOnNewObject] Registered notification for /Script/Engine.PlayerController
+[2026-10-11 22:55:17.3390801] [RegisterHook] Registered script hook (5, 5) for Function /Script/Engine.Actor:ReceiveEndPlay
+[2026-10-11 22:55:17.3391242] [Lua] [HnLink] level change hooks: map load on, new player controller on, actor end on
+[2026-10-11 22:55:17.3393734] [Lua] [HnLink] loaded. F4 Minecraft movement on/off, F6 resync blocks, F9 what blocks the cells ahead
+[2026-10-11 22:55:17.3394542] Starting Lua mod 'Keybinds'
+[2026-10-11 22:55:17.3402920] Starting mods (from enabled.txt (E:\SteamLibrary\steamapps\common\Hello Neighbor\HelloNeighbor\Binaries\Win64\ue4ss\Mods), no defined load order)...
+[2026-10-11 22:55:17.3405171] Event loop start
+[2026-10-11 22:55:19.6691183] [Lua] [HnLink] level change (map load): forgot 0 cube actor(s), the camera actor and the player; they died with the old level
+[2026-10-11 22:55:20.4087217] [Lua] [CheatManagerEnabler] CheatManager already exist, skipping restoration
+[2026-10-11 22:55:20.4295265] [Lua] [ConsoleEnabler] ConsoleKey[1]: Tilde
+[2026-10-11 22:55:20.4296196] [Lua] [ConsoleEnabler] ConsoleKey[2]: ё
+[2026-10-11 22:55:20.4296741] [Lua] [ConsoleEnabler] ConsoleKey[3]: F10
+[2026-10-11 22:55:20.4327869] Unregistering native pre-hook (3) for /Script/Engine.PlayerController:ClientRestart
+[2026-10-11 22:55:20.4328698] Unregistering native post-hook (4) for /Script/Engine.PlayerController:ClientRestart

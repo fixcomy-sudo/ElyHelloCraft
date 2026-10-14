@@ -1,0 +1,27 @@
+[15:17:00.735] hn_gfx loaded (step 2 overlay + step 4 world layer); game window class 'UnrealWindow', overlay 'Local\HelloNeighborMC_overlay_v0'
+[15:17:00.735] installing hooks (pid 7612)
+[15:17:00.765] creating throwaway D3D device (game window not yet created)
+[15:17:04.288] vtable 00007FF8E0F6D688 patched (after the Steam overlay's hook): Present=1 (orig 00007FF8E0EB9000), ResizeBuffers (orig 00007FF8E0ED6C30)
+[15:17:04.354] swap chain 0000021B4797AA80 on window class 'UnrealWindow' (1920x1080 fmt=24 swapEffect=0): GAME, drawing
+[15:17:04.354] game Present: 1 frames, drawing=1, overlay uploads=0 draws=0; longest frame gap 0.0 ms, gaps over 25 ms: 0
+[15:17:04.354] drawing on game swap chain 0000021B4797AA80 (thread 11964)
+[15:17:04.367] overlay pipeline ready (feature level 0xb000)
+[15:17:04.367] context interface 0 (object 0000021B476A9E88): table 0000021B476A9E90, OMSetRenderTargets 00007FF8E0098950, ...AndUAVs 00007FF8E00BEE30
+[15:17:04.474] code hook OMSetRenderTargets #0 at 00007FF8E0098950: MH_OK
+[15:17:04.581] code hook OMSetRenderTargetsAndUAVs #0 at 00007FF8E00BEE30: MH_OK
+[15:17:04.581] back buffer RTV ready: 1920x1080 fmt=24
+[15:17:04.581] overlay mapping Local\HelloNeighborMC_overlay_v0 open (created: 1)
+[15:17:04.581] input: game window 00000000000A080C subclassed (orig proc 00007FF78F397190)
+[15:17:04.581] input: Hello Neighbor 'use' = E
+[15:17:04.581] input: Hello Neighbor 'apply' = LeftMouseButton
+[15:17:04.581] input: Hello Neighbor 'throw' = RightMouseButton
+[15:17:04.581] camera source: POV at 0x24e129eaac0 + loc 6640 rot 6652 fov 6664
+[15:17:04.581] grid offset 8458.2 uu
+[15:17:04.694] code hook OMSetRenderTargets #1 at 00007FF8E00D9E90: MH_OK
+[15:17:04.806] code hook OMSetRenderTargetsAndUAVs #1 at 00007FF8E0034D00: MH_OK
+[15:17:04.806] Present re-entered (depth 1) from gameoverlayrenderer64.dll+0x93f6f; our original is dxgi.dll+0x19000 (first bytes e9 c5 71 82 82), our hook main.dll+0x1da0. Another hook (Steam overlay?) calls back into us.
+[15:17:04.806] Present hook loop cut at depth 8 (1 times)
+[15:17:08.542] depth table (scene depth selected): 3 texture(s), hook calls 308 (with depth 27)
+[15:17:08.542]   depth tex 0000021BADE07DE0 1920x1080 fmt=44 samples=1 bind=0x48 binds this frame=24 total=24  <== scene
+[15:17:08.542]   depth tex 0000021BADE0F160 64x64 fmt=53 samples=1 bind=0x48 binds this frame=1 total=1
+[15:17:08.542]   depth tex 0000021BADE0F420 2048x2048 fmt=53 samples=1 bind=0x48 binds this frame=2 total=2

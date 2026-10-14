@@ -1,0 +1,21 @@
+[15:18:12.857] hn_gfx loaded (step 2 overlay + step 4 world layer); game window class 'UnrealWindow', overlay 'Local\HelloNeighborMC_overlay_v0'
+[15:18:12.858] installing hooks (pid 25040)
+[15:18:12.889] creating throwaway D3D device (game window not yet created)
+[15:18:16.352] vtable 00007FF8E0F6D688 patched (after the Steam overlay's hook): Present=1 (orig 00007FF8E0EB9000), ResizeBuffers (orig 00007FF8E0ED6C30)
+[15:18:16.435] swap chain 0000020889708DE0 on window class 'UnrealWindow' (1920x1080 fmt=24 swapEffect=0): GAME, drawing
+[15:18:16.435] game Present: 1 frames, drawing=1, overlay uploads=0 draws=0; longest frame gap 0.0 ms, gaps over 25 ms: 0
+[15:18:16.435] drawing on game swap chain 0000020889708DE0 (thread 6736)
+[15:18:16.447] overlay pipeline ready (feature level 0xb000)
+[15:18:16.447] context interface 0 (object 00000208FF1879C8): table 00000208FF1879D0, OMSetRenderTargets 00007FF8E0098950, ...AndUAVs 00007FF8E00BEE30
+[15:18:16.532] code hook OMSetRenderTargets #0 at 00007FF8E0098950: MH_OK
+[15:18:16.613] code hook OMSetRenderTargetsAndUAVs #0 at 00007FF8E00BEE30: MH_OK
+[15:18:16.613] back buffer RTV ready: 1920x1080 fmt=24
+[15:18:16.613] overlay mapping Local\HelloNeighborMC_overlay_v0 open (created: 1)
+[15:18:16.613] input: game window 000000000012080C subclassed (orig proc 00007FF78F397190)
+[15:18:16.613] input: Hello Neighbor 'use' = E
+[15:18:16.613] input: Hello Neighbor 'apply' = LeftMouseButton
+[15:18:16.613] input: Hello Neighbor 'throw' = RightMouseButton
+[15:18:16.731] code hook OMSetRenderTargets #1 at 00007FF8E00D9E90: MH_OK
+[15:18:16.851] code hook OMSetRenderTargetsAndUAVs #1 at 00007FF8E0034D00: MH_OK
+[15:18:16.851] Present re-entered (depth 1) from gameoverlayrenderer64.dll+0x93f6f; our original is dxgi.dll+0x19000 (first bytes e9 c5 71 82 82), our hook main.dll+0x1da0. Another hook (Steam overlay?) calls back into us.
+[15:18:16.851] Present hook loop cut at depth 8 (1 times)
